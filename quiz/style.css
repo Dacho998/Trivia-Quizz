@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    background-image: url(./Assets/backgroudpic.1.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#logo{
+    margin-left: 320px;
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 150px;
+}
+#timer{
+    display: flex;
+    margin-top:100px;
+    margin-left: 30px;
+    font-size:35px;
+}
+.text-center{
+    font-size: 70px;
+    margin-top: -170px;
+}
+#output{
+    font-size: 50px;
+    color: red;
+}
+#quiz-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#quiz-question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#quiz-option button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#quiz-option button:hover {
+    background-color: #45a049;
+}
